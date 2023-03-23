@@ -25,9 +25,9 @@
     <nav>
         <div class="nav_container">
             <div class="nav_title">
-                <h4>EMS</h4>
+                <h4 data-aos="fade-up">EMS</h4>
             </div>
-            <div class="nav_items">
+            <div class="nav_items"  data-aos="fade-up" data-aos-delay="300">
                 <a href="#">About Us</a>
             </div>
         </div>
@@ -36,37 +36,40 @@
     <div class="homepage_title">
         <div class="homepage_text">
 
-            <h2 class="homepage_body_title">Employee Management System</h2>
-            <p class="homepage_body">A useful system in the business industry that can assist the human resources 
+            <h2 class="homepage_body_title" data-aos="fade-up" data-aos-delay="300">Employee Management System</h2>
+            <p class="homepage_body" data-aos="fade-up" data-aos-delay="300">A useful system in the business industry that can assist the human resources 
             <br>department in managing their employees more efficiently. <br><br> login as:</p>
 
             <div class="row">
                 <div class="col">
                     <a href="">
-                        <img src="./assets/img/admin.png" alt="">
-                        <p>Admin</p>
+                        <img src="./assets/img/admin.png" alt="" data-aos="fade-up" data-aos-delay="500">
+                        <p data-aos="fade-up" data-aos-delay="700">Admin</p>
                     </a>
                 </div>
                 <div class="col">
                     <a href="">
-                        <img src="./assets/img/user.png" alt="">
-                        <p class="user">User</p>
+                        <img src="./assets/img/user.png" alt="" data-aos="fade-up" data-aos-delay="700">
+                        <p class="user" data-aos="fade-up" data-aos-delay="900">User</p>
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="homepage_hero">
+        <div class="homepage_hero" data-aos="fade-up" data-aos-delay="600">
             <img src="./assets/img/hero.png" alt="">
         </div>
     </div>
 
     </div>
 
-    
-    
-
-
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script>
+        AOS.init ({
+            offset: 120,
+            duration: 1000,
+        });
+    </script>
 </body>
 </html>
