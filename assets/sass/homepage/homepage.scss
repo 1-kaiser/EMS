@@ -1,0 +1,104 @@
+.homepage {
+
+    min-height: 100vh;
+
+    nav  {
+
+        .nav_container {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 50px 10px 50px;
+    
+            .nav_title {
+    
+                display: flex;
+                font-size: 34px;
+
+                img {
+                    width: 37px;
+                    margin-right: 20px;
+                }
+            }
+
+            .nav_items {
+
+                a {
+                    color: rgb(15, 15, 15);
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+    .homepage_title {
+
+        display: flex;
+
+        margin: 90px 0 0 106px;
+
+        .homepage_text {
+
+            margin-right: 35px;
+
+            .homepage_body_title {
+
+                margin-bottom: 30px;
+            }
+
+            .homepage_body {
+
+                font-size: 12px;
+            }
+
+            .row {
+
+                // display: flex;
+
+                .col {
+
+                    display: flex;
+                    justify-content: center;
+
+                    margin-top: 50px;
+
+                    img {
+                        width: 50px;
+                        padding: 15px 0 0 15px;
+                        padding-bottom: 11px;
+                    }
+
+                    p {
+                        text-align: center;
+                        font-size: 12px;
+                        padding-left: 12px;
+                        color: black;
+                    }
+
+                    .user {
+                        padding-left: 14px;                        
+                    }
+
+                    &:hover {
+
+                        border-radius: 5px;
+                        transform: scale(1.1);
+                        transition: all 0.4s ease;
+                    }
+                }
+
+            }
+        }
+
+        .homepage_hero {
+
+            margin-left: 65px;
+
+            img {
+                width: 500px;
+            }
+        }
+        
+    }
+}
