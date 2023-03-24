@@ -42,7 +42,7 @@
 
                 <div class="row">
                     <div class="col">
-                        <a href="/php/admin.php">
+                        <a href="../EMS/php/admin/admin.php">
                             <img src="./assets/img/admin.png" alt="" data-aos="fade-up" data-aos-delay="500">
                             <p data-aos="fade-up" data-aos-delay="700">Admin</p>
                         </a>
