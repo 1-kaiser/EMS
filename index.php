@@ -10,8 +10,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./map_css/style.css">
@@ -22,45 +22,101 @@
     <!-- user/admin -->
     <div class="homepage">
 
-    <nav>
-        <div class="nav_container">
-            <div class="nav_title">
-                <h4 data-aos="fade-up">EMS</h4>
-            </div>
-            <div class="nav_items"  data-aos="fade-up" data-aos-delay="300">
-                <a href="#">About Us</a>
-            </div>
-        </div>
-    </nav>
-
-    <div class="homepage_title">
-        <div class="homepage_text">
-
-            <h2 class="homepage_body_title" data-aos="fade-up" data-aos-delay="300">Employee Management System</h2>
-            <p class="homepage_body" data-aos="fade-up" data-aos-delay="300">A useful system in the business industry that can assist the human resources 
-            <br>department in managing their employees more efficiently. <br><br> login as:</p>
-
-            <div class="row">
-                <div class="col">
-                    <a href="">
-                        <img src="./assets/img/admin.png" alt="" data-aos="fade-up" data-aos-delay="500">
-                        <p data-aos="fade-up" data-aos-delay="700">Admin</p>
-                    </a>
+        <nav>
+            <div class="nav_container">
+                <div class="nav_title">
+                    <h4 data-aos="fade-up" class="title">EMS</h4>
                 </div>
-                <div class="col">
-                    <a href="">
-                        <img src="./assets/img/user.png" alt="" data-aos="fade-up" data-aos-delay="700">
-                        <p class="user" data-aos="fade-up" data-aos-delay="900">User</p>
-                    </a>
+                <div class="nav_items"  data-aos="fade-up" data-aos-delay="400">
+                    <a href="#dev">About Us</a>
                 </div>
             </div>
-        </div>
+        </nav>
 
-        <div class="homepage_hero" data-aos="fade-up" data-aos-delay="600">
-            <img src="./assets/img/hero.png" alt="">
+        <div class="homepage_title">
+            <div class="homepage_text">
+
+                <h2 class="homepage_body_title" data-aos="fade-up" data-aos-delay="300">Employee Management System</h2>
+                <p class="homepage_body" data-aos="fade-up" data-aos-delay="300">A useful system in the business industry that can assist the human resources 
+                <br>department in managing their employees more efficiently. <br><br> login as:</p>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="/php/admin.php">
+                            <img src="./assets/img/admin.png" alt="" data-aos="fade-up" data-aos-delay="500">
+                            <p data-aos="fade-up" data-aos-delay="700">Admin</p>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img src="./assets/img/user.png" alt="" data-aos="fade-up" data-aos-delay="700">
+                            <p class="user" data-aos="fade-up" data-aos-delay="900">User</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="homepage_hero" data-aos="fade-up" data-aos-delay="600">
+                <img src="./assets/img/hero.png" alt="">
+            </div>
         </div>
     </div>
 
+    <div class="dev" id="dev">
+        
+        <div class="dev_title" data-aos="fade-up">
+            <h2>Developers</h2>
+        </div>
+
+        <div class="dev_body">
+            <div class="row">
+
+            <div class="col">
+                <div class="card" data-aos="fade-up">
+                    <img src="./assets/img/dev/arendain.jpg" alt="" class="card_pic">
+                </div>
+                <div class="card_body" data-aos="fade-up" data-aos-delay="100">
+                    Alexander Arendain
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./assets/img/dev/empleo.jpg" alt="" class="card_pic">
+                </div>
+                <div class="card_body" data-aos="fade-up" data-aos-delay="300">
+                    Mark Ivan Empleo
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-aos="fade-up" data-aos-delay="600">
+                    <img src="./assets/img/dev/goto.jpg" alt="" class="card_pic">
+                </div>
+                <div class="card_body" data-aos="fade-up" data-aos-delay="500">
+                    Kevin Goto
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-aos="fade-up" data-aos-delay="900">
+                    <img src="./assets/img/dev/indita.jpg" alt="" class="card_pic">
+                </div>
+                <div class="card_body" data-aos="fade-up" data-aos-delay="700">
+                    Renz Daniel Indita
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-aos="fade-up" data-aos-delay="1200">
+                    <img src="./assets/img/dev/punay.jpg" alt="" class="card_pic">
+                </div>
+                <div class="card_body" data-aos="fade-up" data-aos-delay="900">
+                    Emmanuel Punay
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>

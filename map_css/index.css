@@ -9,7 +9,6 @@
 }
 .homepage nav .nav_container .nav_title {
   display: flex;
-  font-size: 34px;
 }
 .homepage nav .nav_container .nav_title img {
   width: 37px;
@@ -48,14 +47,54 @@
   padding-left: 12px;
   color: black;
 }
+.homepage .homepage_title .homepage_text .row .col .user {
+  padding-left: 14px;
+}
 .homepage .homepage_title .homepage_text .row .col:hover {
   border-radius: 5px;
   transform: scale(1.1);
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
+  box-shadow: 10px 0 0 0 gray;
 }
 .homepage .homepage_title .homepage_hero {
   margin-left: 65px;
 }
 .homepage .homepage_title .homepage_hero img {
   width: 500px;
+}
+
+.dev {
+  min-height: 100vh;
+}
+.dev .dev_title {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+.dev .dev_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 80vh;
+}
+.dev .dev_body .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dev .dev_body .row .col .card {
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.dev .dev_body .row .col .card img {
+  border-radius: 50%;
+  width: 160px;
+  height: 155px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.dev .dev_body .row .col .card_body {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

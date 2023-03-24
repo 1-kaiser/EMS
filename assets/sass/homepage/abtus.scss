@@ -1,0 +1,48 @@
+.dev {
+
+    min-height: 100vh;
+
+    .dev_title {
+
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 0 0;
+    }
+
+    .dev_body {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 80vh;
+
+        .row {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .col {
+
+                .card {
+
+                    border-radius: 50%;
+                    margin-bottom: 12px;
+
+                    img {
+                        border-radius: 50%;
+                        width: 160px;
+                        height: 155px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .card_body {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}

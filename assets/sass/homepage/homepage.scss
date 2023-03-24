@@ -14,7 +14,6 @@
             .nav_title {
     
                 display: flex;
-                font-size: 34px;
 
                 img {
                     width: 37px;
@@ -84,7 +83,8 @@
 
                         border-radius: 5px;
                         transform: scale(1.1);
-                        transition: all 0.4s ease;
+                        transition: all 0.8s ease;
+                        box-shadow: 5px 5px 5px 0px gray;
                     }
                 }
 
