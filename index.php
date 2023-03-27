@@ -71,50 +71,30 @@
         <div class="dev_body">
             <div class="row">
 
-            <div class="col">
-                <div class="card" data-aos="fade-up">
-                    <img src="./assets/img/dev/arendain.jpg" alt="" class="card_pic">
+                <div class="col">
+                    <img src="./assets/img/dev/arendain.jpg" alt="" class="card_pic" data-aos="fade-up">
+                    <p data-aos="fade-up" data-aos-delay="200">Alexander Arendain</p>
                 </div>
-                <div class="card_body" data-aos="fade-up" data-aos-delay="100">
-                    Alexander Arendain
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="./assets/img/dev/empleo.jpg" alt="" class="card_pic">
+                <div class="col">
+                    <img src="./assets/img/dev/empleo.jpg" alt="" class="card_pic" data-aos="fade-up" data-aos-delay="300">
+                    <p data-aos="fade-up" data-aos-delay="400">Mark Ivan Empleo</p>
                 </div>
-                <div class="card_body" data-aos="fade-up" data-aos-delay="300">
-                    Mark Ivan Empleo
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card" data-aos="fade-up" data-aos-delay="600">
-                    <img src="./assets/img/dev/goto.jpg" alt="" class="card_pic">
+                <div class="col">
+                    <img src="./assets/img/dev/goto.jpg" alt="" class="card_pic" data-aos="fade-up" data-aos-delay="600">
+                    <p data-aos="fade-up" data-aos-delay="600">Kevin Goto</p>
                 </div>
-                <div class="card_body" data-aos="fade-up" data-aos-delay="500">
-                    Kevin Goto
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card" data-aos="fade-up" data-aos-delay="900">
-                    <img src="./assets/img/dev/indita.jpg" alt="" class="card_pic">
+                <div class="col">
+                    <img src="./assets/img/dev/indita.jpg" alt="" class="card_pic" data-aos="fade-up" data-aos-delay="900">
+                    <p data-aos="fade-up" data-aos-delay="800">Renz Daniel Indita</p>
                 </div>
-                <div class="card_body" data-aos="fade-up" data-aos-delay="700">
-                    Renz Daniel Indita
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card" data-aos="fade-up" data-aos-delay="1200">
-                    <img src="./assets/img/dev/punay.jpg" alt="" class="card_pic">
+                <div class="col">
+                    <img src="./assets/img/dev/punay.jpg" alt="" class="card_pic" data-aos="fade-up" data-aos-delay="1200">
+                    <p data-aos="fade-up" data-aos-delay="1000">Emmanuel Punay</p>
                 </div>
-                <div class="card_body" data-aos="fade-up" data-aos-delay="900">
-                    Emmanuel Punay
-                </div>
-            </div>
             </div>
         </div>
     </div>

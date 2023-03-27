@@ -118,34 +118,38 @@ body {
 .dev .dev_title {
   display: flex;
   justify-content: center;
-  padding: 30px 0 0 0;
+  position: relative;
+  top: 75px;
 }
 .dev .dev_body {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
   min-height: 80vh;
 }
 .dev .dev_body .row {
-  display: flex;
-  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.dev .dev_body .row .col {
+  margin-right: 10px;
+}
+.dev .dev_body .row .col p {
+  margin-top: 0;
+  margin-bottom: 1rem;
   justify-content: center;
+  display: flex;
+  font-size: 15px;
 }
-.dev .dev_body .row .col .card {
+.dev .dev_body .row .col .card_pic {
   border-radius: 50%;
-  margin-bottom: 12px;
-}
-.dev .dev_body .row .col .card img {
-  border-radius: 50%;
-  width: 160px;
+  width: 150px;
   height: 155px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-}
-.dev .dev_body .row .col .card_body {
-  text-align: center;
+  margin-bottom: 12px;
 }
 
 .card {
