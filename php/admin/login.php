@@ -41,6 +41,9 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="../../index.php">
+                    <p>back home -></p>
+                </a>
                 </form>
             </div>
         </div>

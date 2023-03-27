@@ -54,4 +54,13 @@
     .pword-control {
         @extend .uname-control;
     }
+
+    a {
+        text-decoration: none;
+        color: gray;
+        position: absolute;
+        bottom: 140px;
+        left: 777px;
+        font-size: 11px;
+    }
 }

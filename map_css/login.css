@@ -33,4 +33,12 @@
   width: 275px;
   height: 35px;
   padding-left: 10px;
+}
+.card a {
+  text-decoration: none;
+  color: gray;
+  position: absolute;
+  bottom: 140px;
+  left: 777px;
+  font-size: 11px;
 }/*# sourceMappingURL=login.css.map */
