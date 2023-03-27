@@ -1,100 +1,10 @@
-.homepage {
+.card {
   min-height: 100vh;
-}
-.homepage nav .nav_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 50px 10px 50px;
-}
-.homepage nav .nav_container .nav_title {
-  display: flex;
-}
-.homepage nav .nav_container .nav_title img {
-  width: 37px;
-  margin-right: 20px;
-}
-.homepage nav .nav_container .nav_items a {
-  color: rgb(15, 15, 15);
-  font-size: 12px;
-}
-.homepage .homepage_title {
-  display: flex;
-  margin: 90px 0 0 106px;
-}
-.homepage .homepage_title .homepage_text {
-  margin-right: 35px;
-}
-.homepage .homepage_title .homepage_text .homepage_body_title {
-  margin-bottom: 30px;
-}
-.homepage .homepage_title .homepage_text .homepage_body {
-  font-size: 12px;
-}
-.homepage .homepage_title .homepage_text .row .col {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-.homepage .homepage_title .homepage_text .row .col img {
-  width: 50px;
-  padding: 15px 0 0 15px;
-  padding-bottom: 11px;
-}
-.homepage .homepage_title .homepage_text .row .col p {
-  text-align: center;
-  font-size: 12px;
-  padding-left: 12px;
-  color: black;
-}
-.homepage .homepage_title .homepage_text .row .col .user {
-  padding-left: 14px;
-}
-.homepage .homepage_title .homepage_text .row .col:hover {
-  border-radius: 5px;
-  transform: scale(1.1);
-  transition: all 0.8s ease;
-  box-shadow: 10px 0 0 0 gray;
-}
-.homepage .homepage_title .homepage_hero {
-  margin-left: 65px;
-}
-.homepage .homepage_title .homepage_hero img {
-  width: 500px;
-}
-
-.dev {
-  min-height: 100vh;
-}
-.dev .dev_title {
-  display: flex;
-  justify-content: center;
-  padding: 30px 0 0 0;
-}
-.dev .dev_body {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  min-height: 80vh;
-}
-.dev .dev_body .row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.dev .dev_body .row .col .card {
-  border-radius: 50%;
-  margin-bottom: 12px;
-}
-.dev .dev_body .row .col .card img {
-  border-radius: 50%;
-  width: 160px;
-  height: 155px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-.dev .dev_body .row .col .card_body {
-  text-align: center;
+.card .container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,36 @@
+.card {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.card .card-body {
+  display: flex;
+  align-items: center;
+}
+.card .container {
+  padding: 52px;
+  border-radius: 12px;
+  box-shadow: 2px 0px 25px -10px;
+  background-color: white;
+}
+.card .card-title {
+  position: relative;
+  bottom: 18px;
+}
+.card .uname, .card .pword {
+  margin-bottom: 10px;
+}
+.card .pword {
+  margin-bottom: 15px;
+}
+.card .username, .card .password {
+  padding-bottom: 2px;
+  font-size: 17px;
+}
+.card .uname-control, .card .pword-control {
+  width: 275px;
+  height: 35px;
+  padding-left: 10px;
+}/*# sourceMappingURL=login.css.map */

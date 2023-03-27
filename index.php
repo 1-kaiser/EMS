@@ -42,13 +42,13 @@
 
                 <div class="row">
                     <div class="col">
-                        <a href="../EMS/php/admin/admin.php">
+                        <a href="../EMS/php/admin/login.php">
                             <img src="./assets/img/admin.png" alt="" data-aos="fade-up" data-aos-delay="500">
                             <p data-aos="fade-up" data-aos-delay="700">Admin</p>
                         </a>
                     </div>
                     <div class="col">
-                        <a href="#">
+                        <a href="../EMS/php/employee/login.php">
                             <img src="./assets/img/user.png" alt="" data-aos="fade-up" data-aos-delay="700">
                             <p class="user" data-aos="fade-up" data-aos-delay="900">User</p>
                         </a>

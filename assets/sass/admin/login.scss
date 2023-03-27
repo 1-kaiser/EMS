@@ -1,0 +1,57 @@
+.card {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+
+    .card-body {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+
+        padding: 52px;
+        border-radius: 12px;
+        box-shadow: 2px 0px 25px -10px;
+        background-color: white;
+    }
+
+    .card-title {
+
+        position: relative;
+        bottom: 18px;
+
+    }
+
+    .uname {
+
+        margin-bottom: 10px;
+    }
+
+    .pword {
+        @extend .uname;
+        margin-bottom: 15px;
+    }
+
+    .username {
+        padding-bottom: 2px;
+        font-size: 17px;
+    }
+    .password {
+        @extend .username;
+    }
+
+    .uname-control {
+        width: 275px;
+        height: 35px;
+        padding-left: 10px;
+    }
+
+    .pword-control {
+        @extend .uname-control;
+    }
+}
