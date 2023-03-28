@@ -56,9 +56,9 @@
                 </div>
             </div>
 
-            <div class="homepage_hero" data-aos="fade-up" data-aos-delay="600">
-                <img src="./assets/img/hero.png" alt="">
-            </div>
+
+            <img src="./assets/img/illustration.png" alt="" class="hero-pic" data-aos="fade-up" data-aos-delay="600">
+        
         </div>
     </div>
 

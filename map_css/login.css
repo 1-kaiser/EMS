@@ -1,3 +1,7 @@
+body {
+  background-image: url("circle-scatter-haikei.png");
+}
+
 .card {
   min-height: 100vh;
   display: flex;

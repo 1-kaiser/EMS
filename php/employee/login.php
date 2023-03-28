@@ -40,7 +40,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Login</button>
                 <a href="../../index.php">
                     <p>back home -></p>
                 </a>
