@@ -1,5 +1,4 @@
 .dev {
-  background-image: url("/assets/img/dev/circle-scatter-haikei.png");
   min-height: 100vh;
 }
 .dev .dev_title {
@@ -37,4 +36,8 @@
   -o-object-position: center;
      object-position: center;
   margin-bottom: 12px;
+}
+.dev .btn {
+  position: absolute;
+  left: 630px;
 }/*# sourceMappingURL=abtus.css.map */

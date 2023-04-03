@@ -1,68 +1,76 @@
 .homepage {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .homepage nav .nav_container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 30px 50px 10px 50px;
 }
 .homepage nav .nav_container .nav_title {
-  display: flex;
+  position: relative;
+  top: 25px;
+  left: 30px;
 }
 .homepage nav .nav_container .nav_title h4 {
   font-family: "Alkatra", cursive;
 }
-.homepage nav .nav_container .nav_title img {
-  width: 37px;
-  margin-right: 20px;
+.homepage nav .nav_container .nav_items {
+  position: relative;
+  top: 25px;
+  left: 1266px;
 }
 .homepage nav .nav_container .nav_items a {
-  color: rgb(15, 15, 15);
   font-size: 12px;
+  color: black;
 }
 .homepage .homepage_title {
   display: flex;
-  margin: 90px 0 0 106px;
+  margin: 40px 0 0 106px;
 }
 .homepage .homepage_title .homepage_text {
   margin-right: 35px;
 }
 .homepage .homepage_title .homepage_text .homepage_body_title {
   margin-bottom: 30px;
+  position: relative;
+  top: 77px;
 }
 .homepage .homepage_title .homepage_text .homepage_body {
   font-size: 12px;
+  position: relative;
+  top: 75px;
+}
+.homepage .homepage_title .homepage_text .row {
+  position: absolute;
+  left: 63px;
+  top: 319px;
 }
 .homepage .homepage_title .homepage_text .row .col {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  margin: 50px;
+  border-radius: 15px;
+  padding: 15px 70px 15px 70px;
 }
 .homepage .homepage_title .homepage_text .row .col img {
   width: 50px;
-  padding: 15px 0 0 15px;
+  padding: 13px 1px 0px 1px;
   padding-bottom: 11px;
+  margin-left: 4px;
 }
 .homepage .homepage_title .homepage_text .row .col p {
   text-align: center;
   font-size: 12px;
-  padding-left: 12px;
   color: black;
 }
-.homepage .homepage_title .homepage_text .row .col .user {
-  padding-left: 14px;
-}
 .homepage .homepage_title .homepage_text .row .col:hover {
-  border-radius: 5px;
+  border-radius: 15px;
+  background-color: #4ae48f;
   transform: scale(1.1);
   transition: all 0.8s ease;
-  box-shadow: 5px 5px 5px 0px gray;
 }
 .homepage .homepage_title .hero-pic {
-  position: relative;
-  left: 50px;
-  bottom: 80px;
+  position: absolute;
+  left: 680px;
+  bottom: 28px;
 }
 
 .dev {
@@ -103,4 +111,8 @@
   -o-object-position: center;
      object-position: center;
   margin-bottom: 12px;
+}
+.dev .btn {
+  position: absolute;
+  left: 630px;
 }/*# sourceMappingURL=index.css.map */

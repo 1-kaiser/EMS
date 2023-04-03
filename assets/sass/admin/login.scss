@@ -1,70 +1,60 @@
-body {
-    background-image: url("circle-scatter-haikei.png");
-}
-
 .card {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
 
-    min-height: 100vh;
+  .card-body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #f2f2f2;
+  }
 
-    .card-body {
+  .container {
+    padding: 52px;
+    border-radius: 12px;
+    box-shadow: 2px 0px 25px -10px;
+    background-color: white;
+  }
 
-        display: flex;
-        align-items: center;
-    }
+  .card-title {
+    position: relative;
+    bottom: 18px;
+  }
 
-    .container {
+  .uname {
+    margin-bottom: 10px;
+  }
 
-        padding: 52px;
-        border-radius: 12px;
-        box-shadow: 2px 0px 25px -10px;
-        background-color: white;
-    }
+  .pword {
+    @extend .uname;
+    margin-bottom: 15px;
+  }
 
-    .card-title {
+  .username {
+    padding-bottom: 2px;
+    font-size: 17px;
+  }
+  .password {
+    @extend .username;
+  }
 
-        position: relative;
-        bottom: 18px;
+  .uname-control {
+    width: 275px;
+    height: 35px;
+    padding-left: 10px;
+  }
 
-    }
+  .pword-control {
+    @extend .uname-control;
+  }
 
-    .uname {
-
-        margin-bottom: 10px;
-    }
-
-    .pword {
-        @extend .uname;
-        margin-bottom: 15px;
-    }
-
-    .username {
-        padding-bottom: 2px;
-        font-size: 17px;
-    }
-    .password {
-        @extend .username;
-    }
-
-    .uname-control {
-        width: 275px;
-        height: 35px;
-        padding-left: 10px;
-    }
-
-    .pword-control {
-        @extend .uname-control;
-    }
-
-    a {
-        text-decoration: none;
-        color: gray;
-        position: absolute;
-        bottom: 140px;
-        left: 777px;
-        font-size: 11px;
-    }
+  a {
+    text-decoration: none;
+    color: gray;
+    position: absolute;
+    bottom: 140px;
+    left: 777px;
+    font-size: 11px;
+  }
 }

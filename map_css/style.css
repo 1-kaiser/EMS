@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -6,7 +8,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   scroll-behavior: smooth;
 }
@@ -16,24 +19,39 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, video, picture, svg, canvas {
+img,
+video,
+picture,
+svg,
+canvas {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-h1, h2 {
+h1,
+h2 {
   line-height: 1.1;
 }
 
-input, button {
+input,
+button {
   border: none;
   outline: 2px solid transparent;
   border-radius: 5px;
@@ -48,74 +66,109 @@ body {
 }
 
 .homepage {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .homepage nav .nav_container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 30px 50px 10px 50px;
 }
 .homepage nav .nav_container .nav_title {
-  display: flex;
+  position: relative;
+  top: 25px;
+  left: 30px;
 }
 .homepage nav .nav_container .nav_title h4 {
   font-family: "Alkatra", cursive;
 }
-.homepage nav .nav_container .nav_title img {
-  width: 37px;
-  margin-right: 20px;
+.homepage nav .nav_container .nav_items {
+  position: relative;
+  top: 25px;
+  left: 1266px;
 }
 .homepage nav .nav_container .nav_items a {
-  color: rgb(15, 15, 15);
   font-size: 12px;
+  color: black;
 }
 .homepage .homepage_title {
   display: flex;
-  margin: 90px 0 0 106px;
+  margin: 40px 0 0 106px;
 }
 .homepage .homepage_title .homepage_text {
   margin-right: 35px;
 }
 .homepage .homepage_title .homepage_text .homepage_body_title {
   margin-bottom: 30px;
+  position: relative;
+  top: 77px;
 }
 .homepage .homepage_title .homepage_text .homepage_body {
   font-size: 12px;
+  position: relative;
+  top: 75px;
+}
+.homepage .homepage_title .homepage_text .row {
+  position: absolute;
+  left: 63px;
+  top: 319px;
 }
 .homepage .homepage_title .homepage_text .row .col {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  margin: 50px;
+  border-radius: 15px;
+  padding: 15px 70px 15px 70px;
 }
 .homepage .homepage_title .homepage_text .row .col img {
   width: 50px;
-  padding: 15px 0 0 15px;
+  padding: 13px 1px 0px 1px;
   padding-bottom: 11px;
+  margin-left: 4px;
 }
 .homepage .homepage_title .homepage_text .row .col p {
   text-align: center;
   font-size: 12px;
-  padding-left: 12px;
   color: black;
 }
-.homepage .homepage_title .homepage_text .row .col .user {
-  padding-left: 14px;
-}
 .homepage .homepage_title .homepage_text .row .col:hover {
-  border-radius: 5px;
+  border-radius: 15px;
+  background-color: #4ae48f;
   transform: scale(1.1);
   transition: all 0.8s ease;
-  box-shadow: 5px 5px 5px 0px gray;
 }
 .homepage .homepage_title .hero-pic {
+  position: absolute;
+  left: 680px;
+  bottom: 28px;
+}
+
+.modals .modal1 .modal-dialog .modal-content {
+  width: 350px;
+}
+.modals .modal .modal-dialog {
+  margin-top: 130px;
+}
+.modals .modal .modal-dialog .modal-content {
+  width: 350px;
+}
+.modals .modal .modal-dialog .modal-content .modal-footer {
+  display: flex;
+  align-items: center;
+}
+.modals .modal .modal-dialog .modal-content .modal-footer .signup-btn {
+  margin: 0px 22px 0 0;
+}
+.modals .modal .modal-dialog .modal-content .modal-footer .signup-btn p {
   position: relative;
-  left: 55px;
-  bottom: 80px;
+  top: 9px;
+  right: 48px;
+}
+.modals .emp-signup .modal-dialog {
+  margin: 50px 497px;
+}
+.modals .emp-signup .modal-dialog .modal-content {
+  width: 395px;
 }
 
 .dev {
-  background-image: url("/assets/img/dev/circle-scatter-haikei.png");
   min-height: 100vh;
 }
 .dev .dev_title {
@@ -154,9 +207,9 @@ body {
      object-position: center;
   margin-bottom: 12px;
 }
-
-body {
-  background-image: url("circle-scatter-haikei.png");
+.dev .btn {
+  position: absolute;
+  left: 630px;
 }
 
 .card {
