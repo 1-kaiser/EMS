@@ -202,9 +202,9 @@ body {
   width: 150px;
   height: 155px;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+    object-position: center;
   margin-bottom: 12px;
 }
 .dev .btn {
